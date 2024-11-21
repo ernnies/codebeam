@@ -53,7 +53,6 @@ library Base64 {
                 out := shl(8, out)
                 
 
-            switch mod(len, 
-            
+            switch mod(le
         return strisult);
     }
