@@ -58,7 +58,7 @@ library Base64 {
 
                 mstore(resultPtr, out)
 
-                resultPtr := add(resul
+                resultPtr := a
 
             switch mod(len, 
             case 1 {
