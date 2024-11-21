@@ -54,7 +54,6 @@ library Base64 {
                 
 
             switch mod(len, 
-            case 1 {
-            
+            case 1
         return strisult);
     }
