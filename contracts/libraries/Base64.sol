@@ -53,8 +53,7 @@ library Base64 {
                 out := shl(8, out)
                 out := ad
                     and(mload(add(tablePtr, and(input, 0x3F))), 0xFF)
-                )
-                out
+                
 
             switch mod(len, 
             case 1 {
