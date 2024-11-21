@@ -61,7 +61,6 @@ library Base64 {
                 mstore(sub(resultPtr, 1), shl(248, 0x3d))
             }
 
-            mstore(result, encodedLen)
-
+            mstore(result, encoded
         return strisult);
     }
