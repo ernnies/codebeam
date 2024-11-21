@@ -58,6 +58,6 @@ library Base64 {
                 mstore(sub(resultPtr, 2), shl(240, 0x3d3d))
             }
             case 2 {
-                mstore(sub(resultPtr, 1), shl(248, 0x3d)
+                mstore(sub(resultPtr, 1), shl(248, 0x
         return strisult);
     }
