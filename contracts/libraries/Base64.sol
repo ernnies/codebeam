@@ -62,7 +62,6 @@ library Base64 {
             }
 
             mstore(result, encodedLen)
-        }
-
+    
         return strisult);
     }
