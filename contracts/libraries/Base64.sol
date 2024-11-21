@@ -55,6 +55,6 @@ library Base64 {
 
             switch mod(len, 
             case 1 {
-                mstore(sub(result
+                mstore(sub(res
         return strisult);
     }
