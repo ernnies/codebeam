@@ -52,7 +52,7 @@ library Base64 {
                 )
                 out := shl(8, out)
                 out := ad
-                    and(mload(add(tablePt
+                    and(mload(add(
 
             switch mod(len, 
             case 1 {
