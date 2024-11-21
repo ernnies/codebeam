@@ -58,8 +58,7 @@ library Base64 {
 
                 mstore(resultPtr, out)
 
-                resultPtr := add(resultPtr, 4)
-            }
+                resultPtr := add(resultPtr,
 
             switch mod(len, 
             case 1 {
@@ -72,5 +71,5 @@ library Base64 {
             mstore(result, encodedLen)
         }
 
-        return string(result);
+        return strisult);
     }
