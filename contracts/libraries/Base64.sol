@@ -74,4 +74,3 @@ library Base64 {
 
         return string(result);
     }
-}
