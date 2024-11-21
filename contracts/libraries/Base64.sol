@@ -48,6 +48,6 @@ library Base64 {
                 out := shl(8, out)
                 out := add(
                     out,
-                    and(mload(add(tablePtr, and(shr(6, input), 0x3F))), 0xF
+                    and(mload(add(tablePtr, and(shr(6, input), 0x3F))), 0
         return strisult);
     }
