@@ -51,6 +51,6 @@ library Base64 {
                     and(mload(add(tablePtr, and(shr(6, input), 0x3F))), 0xFF)
                 )
                 o
-            
+
         return strisult);
     }
