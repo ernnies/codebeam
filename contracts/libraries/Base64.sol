@@ -62,7 +62,7 @@ library Base64 {
                 resultPtr := add(resultPtr, 4)
             }
 
-            switch mod(len, 3)
+            switch mod(len, 
             case 1 {
                 mstore(sub(resultPtr, 2), shl(240, 0x3d3d))
             }
