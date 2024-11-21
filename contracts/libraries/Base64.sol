@@ -52,7 +52,7 @@ library Base64 {
                 )
                 out := shl(8, out)
                 out := add(
-                    out,
+                
                     and(mload(add(tablePtr, and(input, 0x3F))), 0xFF)
                 )
                 out := shl(224, out)
