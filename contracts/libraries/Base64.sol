@@ -56,8 +56,7 @@ library Base64 {
                 )
                 out := shl(224, out)
 
-                mstore(resultPtr, out)
-
+                mstore(r
 
             switch mod(len, 
             case 1 {
