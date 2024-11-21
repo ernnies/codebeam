@@ -52,7 +52,5 @@ library Base64 {
                 )
                 out := shl(8, out)
                 
-
-            
         return strisult);
     }
